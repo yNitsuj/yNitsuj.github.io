@@ -1,0 +1,62 @@
+<html>
+<head>
+<link href="home.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <script>
+        $(document).ready(function() {
+            $('body').css('display', 'none');
+            $('body').fadeIn(1000);
+            $('.link').click(function() {
+            event.preventDefault();
+            newLocation = this.href;
+            $('body').fadeOut(1000, newpage);
+        });
+        function newpage() {
+            window.location = newLocation;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            <div class="navi">
+                    <p><span id="home"><a href="home.html">Home</a></span></p>
+                    <p><span id="work"><a href="work.html">Work</a></span></p>
+                    <p><span id="about">About</span></p>
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="RightContent">
+                    <img id="leftgif" src="placeholder gif.gif">
+                </div>
+                <div class="LeftContent">
+                    <div class="intro">
+                        <div class="introtext">
+                            <p id="hello">hello i'm</p>
+                            <p id="name">Justin Yu</p>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div class="firstpic">
+                            <img id="lecture" src="Lecture Series Final Poster-01.png">
+                        </div>
+                        <div class="firsttext">
+                            <p id="firsttext">ADAPTING TO A NEW CLIMATE</p>
+                        </div>
+                    </div>
+                    <div class="second">
+
+                    </div>
+                    <div class="third">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

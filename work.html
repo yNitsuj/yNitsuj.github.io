@@ -1,0 +1,96 @@
+<html>
+<head>
+<link href="work.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <script>
+        $(document).ready(function() {
+            $('body').css('display', 'none');
+            $('body').fadeIn(1000);
+            $('.link').click(function() {
+            event.preventDefault();
+            newLocation = this.href;
+            $('body').fadeOut(1000, newpage);
+        });
+        function newpage() {
+            window.location = newLocation;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            <div class="navi">
+                    <p><span id="home"><a href="home.html">Home</a></span></p>
+                    <p><span id="work"><a href="work.html">Work</a></span></p>
+                    <p><span id="about">About</span></p>
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="RightContent">
+                    <div class="RightText">
+                        <p id="Projects">Projects</p>
+                        <p id="list">
+                            <span id="adapt"><a href="home.html">ADAPTING TO A NEW CLIMATE</span></a>
+                            <br>
+                            <span id="second"><a href="home.html">SECOND GENERATION</span></a>
+                            <br>
+                            <span id="hiki"><a href="home.html">Hikikomori - Cyberhomeless</span></a>
+                            <br>
+                            <span id="alike"><a href="home.html">Alike and Unalike</span></a>
+                            <br>
+                            <span id="dinner"><a href="home.html">DinnerPlate</span></a>
+                            <br>
+                            <span id="jdm"><a href="home.html">JDM/ECLIPSE/PARIS AIR SHOW</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="LeftContent">
+                    <div class="row">
+                        <div class="column">
+                            <div class="lecturepic">
+                              <img src="Lecture Series Final Poster-01.png">
+                            </div>
+                            <div class="secondpic">
+                                <img src="cover mockup.png">
+                            </div>
+                          <img src="falls2.jpg">
+                          <img src="paris.jpg">
+                          <img src="nature.jpg">
+                          <img src="mist.jpg">
+                          <img src="paris.jpg">
+                        </div>
+                        <div class="columnmid">
+                          <img src="Screenshot 2022-02-24 020628.png">
+                          <img src="App Logo-04.png">
+                          <img src="wedding.jpg">
+                          <img src="mountainskies.jpg">
+                          <img src="rocks.jpg">
+                          <img src="underwater.jpg">
+                        </div>
+                        <div class="column">
+                          <img src="JY_Ex Poster_Final.png">
+                          <img src="rocks.jpg">
+                          <img src="falls2.jpg">
+                          <img src="paris.jpg">
+                          <img src="nature.jpg">
+                          <img src="mist.jpg">
+                          <img src="paris.jpg">
+                        </div>
+                        <div class="column">
+                          <img src="underwater.jpg">
+                          <img src="ocean.jpg">
+                          <img src="wedding.jpg">
+                          <img src="mountainskies.jpg">
+                          <img src="rocks.jpg">
+                          <img src="underwater.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
