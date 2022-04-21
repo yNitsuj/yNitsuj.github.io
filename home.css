@@ -187,13 +187,196 @@ a:link {
 .second {
     height: 33%;
     margin: 2%;
-    background-color:#6ea364;
+}
+
+.secondpic{
+    background-color: yellow;
+}
+
+#alike {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0%;
+    transition: 0.5s ease;
+}
+
+.secondtext {
+    margin-top: 1%
+}
+
+#secondtext {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: 0.5s ease;
+
+}
+
+.second:hover .secondpic #alike{
+    opacity: 70%;
+    transition: 0.5s ease;
+}
+
+.second:hover .secondtext #secondtext{
+    font-size: 30px;
+    transition: 0.5s ease;
 }
 
 .third {
     height: 33%;
     margin: 2%;
-    background-color:aliceblue;
+}
+
+.thirdpic{
+    background-color: yellow;
+}
+
+#hiki {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0%;
+    transition: 0.5s ease;
+}
+
+.thirdtext {
+    margin-top: 1%
+}
+
+#thirdtext {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: 0.5s ease;
+
+}
+
+.third:hover .thirdpic #hiki{
+    opacity: 70%;
+    transition: 0.5s ease;
+}
+
+.third:hover .thirdtext #thirdtext{
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+
+.fourth {
+    height: 33%;
+    margin: 2%;
+}
+
+.fourthpic{
+    background-color: yellow;
+}
+
+#poster {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0%;
+    transition: 0.5s ease;
+}
+
+.fourthtext {
+    margin-top: 1%
+}
+
+#fourthtext {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: 0.5s ease;
+
+}
+
+.fourth:hover .fourthpic #poster{
+    opacity: 70%;
+    transition: 0.5s ease;
+}
+
+.fourth:hover .fourthtext #fourthtext{
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+
+.fifth {
+    height: 33%;
+    margin: 2%;
+}
+
+.fifthpic{
+    background-color: yellow;
+}
+
+#dinnerplate {
+    height: 230px;
+    width: 100%;
+    object-fit:cover;
+    object-position: 25% 50%;
+    transition: 0.5s ease;
+}
+
+.fifthtext {
+    margin-top: 1%
+}
+
+#fifthtext {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: 0.5s ease;
+
+}
+
+.fifth:hover .fifthpic #dinnerplate{
+    opacity: 70%;
+    transition: 0.5s ease;
+}
+
+.fifth:hover .fifthtext #fifthtext{
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+
+.sixth {
+    height: 33%;
+    margin: 2%;
+}
+
+.sixthpic{
+    background-color: yellow;
+}
+
+#generation {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 51%;
+    transition: 0.5s ease;
+}
+
+.sixthtext {
+    margin-top: 1%
+}
+
+#sixthtext {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: 0.5s ease;
+
+}
+
+.sixth:hover .sixthpic #generation{
+    opacity: 70%;
+    transition: 0.5s ease;
+}
+
+.sixth:hover .sixthtext #sixthtext{
+    font-size: 30px;
+    transition: 0.5s ease;
 }
 
 .RightContent

@@ -1,0 +1,59 @@
+<html>
+<head>
+<link href="about.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <script>
+        $(document).ready(function() {
+            $('body').css('display', 'none');
+            $('body').fadeIn(1000);
+            $('.link').click(function() {
+            event.preventDefault();
+            newLocation = this.href;
+            $('body').fadeOut(1000, newpage);
+        });
+        function newpage() {
+            window.location = newLocation;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            <div class="navi">
+                    <p><span id="home"><a href="home.html">Home</a></span></p>
+                    <p><span id="work"><a href="work.html">Work</a></span></p>
+                    <p><span id="about"><a href="about.html">About</a></span></p>
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="text">
+                    <p>I am a graphic designer and photographer
+                        based in the greater New York region. I enjoy
+                        the process of creative brainstorming and
+                        producing pieces that will be seen and
+                        interpreted by an audience, which
+                        gives me a feeling of accomplishment.
+                        <br>
+                        <br>
+                        I am skilled in using a majority of Adobe
+                        Creative Suite programs such as After Effects,
+                        Illustrator, Indesign, Lightroom, Photoshop,
+                        and Premiere Pro. Using HTML, CSS, and
+                        some Javascript, I have designed websites,
+                        digital tools, and data visualizations.
+                        <br>
+                        <br>
+                        For examples of recent client work or other inquiries, please contact jy652@scarletmail.rutgers.edu
+                    </p>
+                </div>
+                <div class="pic">
+                    <img id="pic" src="IMG_4386 (1).jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
