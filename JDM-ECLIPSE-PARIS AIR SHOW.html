@@ -1,0 +1,71 @@
+<html>
+<head>
+<link href="JDM-ECLIPSE-PARIS AIR SHOW.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <script>
+        $(document).ready(function() {
+            $('body').css('display', 'none');
+            $('body').fadeIn(1000);
+            $('.link').click(function() {
+            event.preventDefault();
+            newLocation = this.href;
+            $('body').fadeOut(1000, newpage);
+        });
+        function newpage() {
+            window.location = newLocation;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            <div class="navi">
+                    <p><span id="home"><a href="home.html">Home</a></span></p>
+                    <p><span id="work"><a href="work.html">Work</a></span></p>
+                    <p><span id="about">About</span></p>
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="RightContent">
+                    <div class="RightText">
+                        <p id="Projects">Projects</p>
+                        <p id="list">
+                            <span id="year">2019</span>
+                            <br>
+                            <span id="alike"><a href="home.html">Alike and Unalike</span></a>
+                            <br>
+                            <span id="year">2020</span>
+                            <br>
+                            <span id="jdm"><a href="JDM-ECLIPSE-PARIS AIR SHOW.html">JDM/ECLIPSE/PARIS AIR SHOW</span></a>
+                            <br>
+                            <span id="second"><a href="home.html">SECOND GENERATION</span></a>
+                            <br>
+                            <span id="year">2021</span>
+                            <br>
+                            <span id="hiki"><a href="home.html">Hikikomori - Cyberhomeless</span></a>
+                            <br>
+                            <span id="dinner"><a href="home.html">DinnerPlate</span></a>
+                            <br>
+                            <span id="year">2022</span>
+                            <br>
+                            <span id="adapt"><a href="Adapting to a New Climate.html">ADAPTING TO A NEW CLIMATE</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="LeftContent">
+                    <p id="title">JDM/ECLIPSE/PARIS AIR SHOW</p>
+                    <div class="column">
+                        <img id="one" src="event poster final 1.jpg">
+                        <img id="two" src="event poster final 2.jpg">
+                        <img id="three" src="event poster final 3.jpg">
+                        <p id="desc">sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
