@@ -116,30 +116,29 @@ a:link {
         height: 100%;
     }
 
-.LeftContent
-{
-    background-color: white;
+.LeftContent{
     overflow: auto;
     margin-top: 0%;
 }
 
 .intro {
-    height: 20%;
     margin: 2%;
-    color:#787bb1;
+    color:black;
 }
 
 #hello{
-    font-size: 2.5vw;
+    font-size: 5vh;
+    font-size: 3vw;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color:#787bb1;
+    color:black;
 
 }
 
 #name {
+    font-size: 15vh;
     font-size: 9vw;
-    margin-top: -4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
@@ -155,7 +154,7 @@ a:link {
 }
 
 #lecture {
-    height: 230px;
+    height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: 0 0%;
@@ -163,11 +162,11 @@ a:link {
 }
 
 .firsttext {
-    margin-top: 1%
+    margin-top: 1vh
 }
 
 #firsttext {
-    font-size: 20px;
+    font-size: 2.25vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transition: 0.5s ease;
@@ -180,7 +179,7 @@ a:link {
 }
 
 .first:hover .firsttext #firsttext{
-    font-size: 30px;
+    font-size: 3vh;
     transition: 0.5s ease;
 }
 
@@ -194,7 +193,7 @@ a:link {
 }
 
 #alike {
-    height: 230px;
+    height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: 0 0%;
@@ -202,11 +201,11 @@ a:link {
 }
 
 .secondtext {
-    margin-top: 1%
+    margin-top: 1vh
 }
 
 #secondtext {
-    font-size: 20px;
+    font-size: 2.25vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transition: 0.5s ease;
@@ -219,7 +218,7 @@ a:link {
 }
 
 .second:hover .secondtext #secondtext{
-    font-size: 30px;
+    font-size: 3vh;
     transition: 0.5s ease;
 }
 
@@ -233,7 +232,7 @@ a:link {
 }
 
 #hiki {
-    height: 230px;
+    height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: 0 0%;
@@ -241,11 +240,11 @@ a:link {
 }
 
 .thirdtext {
-    margin-top: 1%
+    margin-top: 1vh
 }
 
 #thirdtext {
-    font-size: 20px;
+    font-size: 2.25vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transition: 0.5s ease;
@@ -258,7 +257,7 @@ a:link {
 }
 
 .third:hover .thirdtext #thirdtext{
-    font-size: 30px;
+    font-size: 3vh;
     transition: 0.5s ease;
 }
 
@@ -272,7 +271,7 @@ a:link {
 }
 
 #poster {
-    height: 230px;
+    height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: 0 0%;
@@ -280,11 +279,11 @@ a:link {
 }
 
 .fourthtext {
-    margin-top: 1%
+    margin-top: 1vh
 }
 
 #fourthtext {
-    font-size: 20px;
+    font-size: 2.25vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transition: 0.5s ease;
@@ -297,7 +296,7 @@ a:link {
 }
 
 .fourth:hover .fourthtext #fourthtext{
-    font-size: 30px;
+    font-size: 3vh;
     transition: 0.5s ease;
 }
 
@@ -311,7 +310,7 @@ a:link {
 }
 
 #dinnerplate {
-    height: 230px;
+    height: 80%;
     width: 100%;
     object-fit:cover;
     object-position: 25% 50%;
@@ -319,11 +318,11 @@ a:link {
 }
 
 .fifthtext {
-    margin-top: 1%
+    margin-top: 1vh
 }
 
 #fifthtext {
-    font-size: 20px;
+    font-size: 2.25vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transition: 0.5s ease;
@@ -336,7 +335,7 @@ a:link {
 }
 
 .fifth:hover .fifthtext #fifthtext{
-    font-size: 30px;
+    font-size: 3vh;
     transition: 0.5s ease;
 }
 
@@ -350,7 +349,7 @@ a:link {
 }
 
 #generation {
-    height: 230px;
+    height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: 0 51%;
@@ -358,11 +357,11 @@ a:link {
 }
 
 .sixthtext {
-    margin-top: 1%
+    margin-top: 1vh
 }
 
 #sixthtext {
-    font-size: 20px;
+    font-size: 2.25vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     transition: 0.5s ease;
@@ -375,7 +374,7 @@ a:link {
 }
 
 .sixth:hover .sixthtext #sixthtext{
-    font-size: 30px;
+    font-size: 3vh;
     transition: 0.5s ease;
 }
 
@@ -433,47 +432,16 @@ a:link {
 
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-    .intro{
-        height: 10%;
-    }
-
-    .first {
-        height: 25%;
-    }
+    
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    .intro{
-        height: 15%;
-    }
-    #name {
-        font-size: 9vw;
-        margin-top: -2.5vh;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-    }
-    .first {
-        height: 35%;
-    }
-
-    .second {
-        height: 35%;
-    }
+    
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-    #name {
-        font-size: 9vw;
-        margin-top: -3vh;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-    }
-    .first {
-        margin-top: 0;
-    }
+    
 }
 
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
-    .first {
-        margin-top: 10%;
-    }
+   
 }
 
