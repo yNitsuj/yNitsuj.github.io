@@ -44,7 +44,7 @@ a:link {
 }
 
 #home {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-left: 10%;
@@ -61,7 +61,7 @@ a:link {
 }
 
 #work {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-image: linear-gradient(to right, transparent 50%, yellow 50%);
@@ -78,7 +78,7 @@ a:link {
 }
 
 #about {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-image: linear-gradient(to right, transparent 50%, yellow 50%);

@@ -1,0 +1,390 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .Container
+{
+    height: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+    .Container:before
+    {
+        content: '';
+        height: 100%;
+        float: right;
+    }
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.Header
+{
+    background-color: white;
+    overflow-y: scroll;
+    height: 5%;
+    margin-bottom: 0%;
+    margin-top: 3px;
+    overflow: hidden;
+}
+
+.navi{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#home {
+    font-size: 3.4vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 10%;
+    background-image: linear-gradient(to right, transparent 50%, yellow 50%);
+    background-origin: 0;
+    background-size: 200% 50%;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+}
+
+#home:hover {
+    background-position: -100% 100%;
+}
+
+#work {
+    font-size: 3.4vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(to right, transparent 50%, yellow 50%);
+    background-origin: 0;
+    background-size: 200% 50%;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+    margin: 50px;
+}
+
+#work:hover {
+    background-position: -100% 100%;
+}
+
+#about {
+    font-size: 3.4vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(to right, transparent 50%, yellow 50%);
+    background-origin: 0;
+    background-size: 200% 50%;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+}
+
+#about:hover {
+    background-position: -100% 100%;
+}
+
+.Content
+{
+    position: relative;
+    z-index: 1;
+}
+    .Content:after
+    {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+.Wrapper
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+    .Wrapper > div
+    {
+        height: 100%;
+    }
+
+.LeftContent
+{
+    background-color: white;
+    overflow: auto;
+    margin-top: 0%;
+    margin-left: 0%;
+    width:75vw;
+}
+
+.LeftContent::-webkit-scrollbar {
+    width: 10px;
+}
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    row-gap: 1vh;
+    column-gap: 50px;
+    margin-bottom: 10%;
+}
+
+#title {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#video {
+    width: 75vw;
+    margin-right: 5%;
+}
+
+#desc{
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+}
+
+#one {
+    width:25vw;
+}
+
+#two {
+    width:25vw;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+}
+
+#three {
+    width:25vw;
+
+}
+
+#four {
+    width:25vw;
+
+}
+
+#five {
+    width:25vw;
+}
+
+#six {
+    width:25vw;
+}
+
+#seven {
+    width:25vw;
+}
+
+#eight {
+    width:25vw;
+}
+
+.RightContent
+{
+    float: Left;
+    margin-left: 10px;
+    width: 25vw;
+    margin-left: 0%;
+    position: relative;
+}
+
+.RightContent:after
+{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.RightText {
+    margin-left: 2%;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:black;
+}
+
+#Projects {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:black;
+    font-size: 3.6vw;
+}
+
+#list {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:black;
+    font-size: 1.1vw;
+    margin-top:20px;
+    line-height: 20px;
+}
+
+br {
+    content: "";
+    margin: 5em;
+    display: block;
+    font-size: .3vw;
+  }
+
+#year {
+    font-weight: 700;
+    font-size: 1.4vw;
+    color:black;
+}
+
+#adapt {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#adapt:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#second {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#second:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#hiki {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#hiki:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#alike {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#alike:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#dinner {
+    transition: 0.5s ease;
+    color:black;
+    font-weight: 900;
+    background-color: yellow;
+}
+
+#dinner:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#jdm {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#jdm:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#portraiture {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#portraiture:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#time {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#time:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#twilight {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#twilight:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#day {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#day:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}

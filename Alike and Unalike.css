@@ -44,7 +44,7 @@ a:link {
 }
 
 #home {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-left: 10%;
@@ -61,7 +61,7 @@ a:link {
 }
 
 #work {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-image: linear-gradient(to right, transparent 50%, yellow 50%);
@@ -78,7 +78,7 @@ a:link {
 }
 
 #about {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-image: linear-gradient(to right, transparent 50%, yellow 50%);
@@ -122,6 +122,7 @@ a:link {
     overflow: auto;
     margin-top: 0%;
     margin-left: 0%;
+    width:75vw;
 }
 
 .LeftContent::-webkit-scrollbar {
@@ -163,11 +164,11 @@ a:link {
 }
 
 #cover {
-    width: 100%;
+    width: 74vw;
 }
 
 #desc{
-    font-size: 15px;
+    font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-right: 10%;
@@ -182,7 +183,7 @@ a:link {
 {
     float: Left;
     margin-left: 10px;
-    width: 25%;
+    width: 25vw;
     margin-left: 0%;
     position: relative;
 }
@@ -205,15 +206,15 @@ a:link {
 #Projects {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    color:#787bb1;
-    font-size: 70px;
+    color:black;
+    font-size: 3.6vw;
 }
 
 #list {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color:#787bb1;
-    font-size: 20px;
+    color:black;
+    font-size: 1.1vw;
     margin-top:20px;
     line-height: 20px;
 }
@@ -222,29 +223,29 @@ br {
     content: "";
     margin: 5em;
     display: block;
-    font-size: 24%;
+    font-size: .3vw;
   }
 
 #year {
     font-weight: 700;
-    font-size: 25px;
-    color:#787bb1;
+    font-size: 1.4vw;
+    color:black;
 }
 
 #adapt {
     transition: 0.5s ease;
-    color:#787bb1;
+    color:black;
 }
 
 #adapt:hover {
-    font-size: 25px;
+    
     background-color: yellow;
     transition: 0.5s ease;
 }
 
 #second {
     transition: 0.5s ease;
-    color:#787bb1;
+    color:black;
 }
 
 #second:hover {
@@ -255,7 +256,7 @@ br {
 
 #hiki {
     transition: 0.5s ease;
-    color:#787bb1;
+    color:black;
 }
 
 #hiki:hover {
@@ -266,9 +267,9 @@ br {
 
 #alike {
     transition: 0.5s ease;
-    color:#787bb1;
+    color:black;
     font-weight: 900;
-    text-decoration: underline;
+    background-color: yellow;
 }
 
 #alike:hover {
@@ -279,7 +280,7 @@ br {
 
 #dinner {
     transition: 0.5s ease;
-    color:#787bb1;
+    color:black;
 }
 
 #dinner:hover {
@@ -290,10 +291,54 @@ br {
 
 #jdm {
     transition: 0.5s ease;
-    color:#787bb1;
+    color:black;
 }
 
 #jdm:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#portraiture {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#portraiture:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#time {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#time:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#twilight {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#twilight:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#day {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#day:hover {
     font-size: 25px;
     background-color: yellow;
     transition: 0.5s ease;

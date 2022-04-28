@@ -1,0 +1,77 @@
+<html>
+<head>
+<link href="DinnerPlate.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <script>
+        $(document).ready(function() {
+            $('body').css('display', 'none');
+            $('body').fadeIn(1000);
+            $('.link').click(function() {
+            event.preventDefault();
+            newLocation = this.href;
+            $('body').fadeOut(1000, newpage);
+        });
+        function newpage() {
+            window.location = newLocation;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            <div class="navi">
+                <p><span id="home"><a href="home.html">Home</a></span></p>
+                <p><span id="work"><a href="work.html">Work</a></span></p>
+                <p><span id="about"><a href="about.html">About</a></span></p>
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="RightContent">
+                    <div class="RightText">
+                        <p id="Projects">Projects</p>
+                        <p id="list">
+                            <span id="year">2019</span>
+                            <br>
+                            <span id="alike"><a href="Alike and Unalike.html">ALIKE AND UNALIKE</span></a>
+                            <br>
+                            <span id="jdm"><a href="Daydreams.html">DAYDREAMS</span></a>
+                            <br>
+                            <span id="year">2020</span>
+                            <br>
+                            <span id="day"><a href="JDM-ECLIPSE-PARIS AIR SHOW.html">JDM/ECLIPSE/PARIS AIR SHOW</span></a>
+                            <br>
+                            <span id="twilight"><a href="Twilight.html">TWILIGHT</span></a>
+                            <br>
+                            <span id="second"><a href="Second Generation.html">SECOND GENERATION</span></a>
+                            <br>
+                            <span id="year">2021</span>
+                            <br>
+                            <span id="time"><a href="Now is the Time.html">NOW IS THE TIME</span></a>
+                            <br>
+                            <span id="hiki"><a href="Hikikomori vs Cyberhomeless.html">HIKIKOMORI VS CYBERHOMELESS</span></a>
+                            <br>
+                            <span id="dinner"><a href="DinnerPlate.html">DINNERPLATE</span></a>
+                            <br>
+                            <span id="portraiture"><a href="Portraiture.html">PORTRAITURE</span></a>
+                            <br>
+                            <span id="year">2022</span>
+                            <br>
+                            <span id="hiki"><a href="Adapting to a New Climate.html">ADAPTING TO A NEW CLIMATE</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="LeftContent">
+                    <p id="title">DAYDREAMS</p>
+                    <div class="column">
+                        <video id="video" src="Justin Yu Last Video.mp4" autoplay loop controls></video>
+                        <p id="desc">I always enjoy looking out the window during journeys because the views I see help stimulate my mind. Through this video, I wanted to represent how my eyes view the world by visualizing the daydreams I have throughout a train ride. By illustrating and animating active lines that play with the environment, I can show the viewer the details that I am focusing on as I create forms out of them. To animate these lines, I drew on each frame individually to create an illusion of movement with the end result.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

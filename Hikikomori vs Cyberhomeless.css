@@ -44,7 +44,7 @@ a:link {
 }
 
 #home {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-left: 10%;
@@ -61,7 +61,7 @@ a:link {
 }
 
 #work {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-image: linear-gradient(to right, transparent 50%, yellow 50%);
@@ -78,7 +78,7 @@ a:link {
 }
 
 #about {
-    font-size: 30px;
+    font-size: 3.4vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-image: linear-gradient(to right, transparent 50%, yellow 50%);
@@ -170,7 +170,7 @@ a:link {
 }
 
 #desc{
-    font-size: 15px;
+    font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-right: 10%;
@@ -323,6 +323,50 @@ br {
 }
 
 #jdm:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#portraiture {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#portraiture:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#time {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#time:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#twilight {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#twilight:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}
+
+#day {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#day:hover {
     font-size: 25px;
     background-color: yellow;
     transition: 0.5s ease;
