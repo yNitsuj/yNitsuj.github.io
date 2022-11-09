@@ -393,3 +393,14 @@ br {
     background-color: yellow;
     transition: 0.5s ease;
 }
+
+#dcim {
+    transition: 0.5s ease;
+    color:black;
+}
+
+#dcim:hover {
+    font-size: 25px;
+    background-color: yellow;
+    transition: 0.5s ease;
+}

@@ -308,7 +308,7 @@ br {
 }
 
 #adapt:hover {
-    
+    font-size: 25px;
     background-color: yellow;
     transition: 0.5s ease;
 }
