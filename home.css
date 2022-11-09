@@ -378,6 +378,46 @@ a:link {
     transition: 0.5s ease;
 }
 
+.dcimhome {
+    height: 33%;
+    margin: 2%;
+    margin-top: 4vh;
+}
+
+.dcimpic{
+    background-color: yellow;
+}
+
+#dcim {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0%;
+    transition: 0.5s ease;
+}
+
+.dcimtext {
+    margin-top: 1vh
+}
+
+#dcimtext {
+    font-size: 2.25vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: 0.5s ease;
+
+}
+
+.dcimhome:hover .dcimpic #dcim{
+    opacity: 70%;
+    transition: 0.5s ease;
+}
+
+.dcimhome:hover .dcimtext #dcimtext{
+    font-size: 3vh;
+    transition: 0.5s ease;
+}
+
 .RightContent
 {
     background-color: orange;

@@ -144,147 +144,43 @@ a:link {
     background: #555;
 }
 
-.row {
+.column {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 4px;
-    margin-bottom: 20px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 100%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
-    height: 50vh;
-    object-fit: cover;
+    justify-content: center;
+    row-gap: 100px;
+    column-gap: 100px;
+    margin-bottom: 10%;
 }
 
-.columnmid {
-    flex: 25%;
-    max-width: 100%;
-    padding: 0 4px;
-    margin-top: 10%;
-}
-  
-.columnmid img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
+#title {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.lecturepic:hover {
-    background-color: yellow;
+#cover {
+    width: 20vw;
 }
 
-.lecturepic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
+#cover-two {
+    width: 74vw;
 }
 
-.secondpic:hover {
-    background-color: yellow;
+#desc{
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
-.secondpic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.hikipic:hover {
-    background-color: yellow;
-}
-
-.hikipic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.dinnerpic:hover {
-    background-color: yellow;
-}
-
-.dinnerpic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.alikepic:hover {
-    background-color: yellow;
-}
-
-.alikepic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.posterpic:hover {
-    background-color: yellow;
-}
-
-.posterpic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.portraitpic:hover {
-    background-color: yellow;
-}
-
-.portraitpic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.twilightpic:hover {
-    background-color: yellow;
-}
-
-.twilightpic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.timepic:hover {
-    background-color: yellow;
-}
-
-.timepic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-
-.daypic:hover {
-    background-color: yellow;
-}
-
-.daypic img:hover{
-    opacity: 70%;
-    transition: 0.5s ease;
-}
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-}
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
+#one{
+    width:50vw;
 }
 
 .RightContent
@@ -346,6 +242,7 @@ br {
 }
 
 #adapt:hover {
+    
     background-color: yellow;
     transition: 0.5s ease;
 }
@@ -375,6 +272,8 @@ br {
 #alike {
     transition: 0.5s ease;
     color:black;
+    font-weight: 900;
+    background-color: yellow;
 }
 
 #alike:hover {
